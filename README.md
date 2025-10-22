@@ -92,7 +92,7 @@ print(pred[:10])
 This project is released for educational and demonstration purposes.
 
 - **declaimer** This dataset is synthetic; use insights directionally and validate on real-world process data before acting.
-- [dataset] (https://www.kaggle.com/datasets/rabieelkharoua/predicting-manufacturing-defects-dataset)
+- [dataset](https://www.kaggle.com/datasets/rabieelkharoua/predicting-manufacturing-defects-dataset)
 
 ---
 
