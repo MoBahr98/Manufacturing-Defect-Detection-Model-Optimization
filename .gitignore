@@ -22,9 +22,6 @@ __pycache__/
 # Uncomment the next line if you don't want to upload your data
 # data/
 notebooks/catboost_info/
-notebooks/models/*.json
-notebooks/models/*.csv
-notebooks/models/*.txt
 # If models are large, also uncomment:
 # notebooks/models/*.pkl
 

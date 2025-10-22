@@ -1,0 +1,16 @@
+production_volume
+production_cost
+supplier_quality
+delivery_delay
+defect_rate
+quality_score
+maintenance_hours
+downtime_percentage
+inventory_turnover
+stockout_rate
+worker_productivity
+safety_incidents
+energy_consumption
+energy_efficiency
+additive_process_time
+additive_material_cost

@@ -1,7 +1,8 @@
 # 🏭 Manufacturing Defect Detection – Model Optimization Project
 
 This project explores **machine learning model selection and optimization** for predicting manufacturing defects.  
-It focuses on building, tuning, and evaluating multiple classification models — ultimately finding the most effective one for high-accuracy defect prediction.
+
+- It focuses on building, tuning, and evaluating multiple classification models. Ultimately finding the most effective one for high-accuracy defect prediction.
 
 ---
 
@@ -25,21 +26,20 @@ The notebook includes all plots, reports, and metrics.
 
 ---
 
-## 🧠 Final Results
+## Final Results
 
 | Model | Accuracy | Precision | Recall | F1 | ROC-AUC |
 |:--|--:|--:|--:|--:|--:|
-| **Stack (all features) @best-F1** | **0.952** | 0.951 | **0.994** | **0.972** | 0.838 |
-| Best model (top features) @best-F1 – LightGBM | 0.951 | 0.951 | 0.993 | 0.971 | **0.850** |
-| Stack (all features) @0.50 | 0.943 | 0.950 | 0.983 | 0.967 | 0.838 |
+| **Stack (all features) @best-F1** | **0.952160** | 0.950877 | **0.994495** | **0.972197** | 0.837891 |
+| Best model (top features) @best-F1 – LightGBM | 0.950617 | 0.950791 | 0.992661 | 0.971275 | **0.849826** |
+| Stack (all features) @0.50 | 0.942901 | 0.950355 | 0.983486 | 0.966637 | 0.837891 |
 
-✅ **Final selected model:**  
-**Stacking Classifier (LightGBM + GradientBoosting + HistGradientBoosting)**  
-using all features and an optimized threshold (max F1).
+### **Final selected model:**  
+**Stacking Classifier (LightGBM + GradientBoosting + HistGradientBoosting)** using all features and an optimized threshold (max F1).
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ```bash
 git clone https://github.com/<your-username>/manufacturing-defect-detection.git
@@ -47,7 +47,7 @@ cd manufacturing-defect-detection
 
 pip install -r requirements.txt
 
-jupyter notebook notebooks/01_data_exploration.ipynb
+jupyter lab notebooks/01_data_exploration.ipynb
     - This notebook runs the entire pipeline from model comparison through final evaluation.
 
 ```
