@@ -1,0 +1,48 @@
+# ------------------------------
+# 🧠 Python & Machine Learning
+# ------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.log
+*.tmp
+
+# ------------------------------
+# 📓 Jupyter Notebooks
+# ------------------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+.notebook_cache/
+
+# ------------------------------
+# 🧮 Data & Models
+# ------------------------------
+# Uncomment the next line if you don't want to upload your data
+# data/
+notebooks/catboost_info/
+notebooks/models/*.json
+notebooks/models/*.csv
+notebooks/models/*.txt
+# If models are large, also uncomment:
+# notebooks/models/*.pkl
+
+# ------------------------------
+# 🧰 Environment Files
+# ------------------------------
+.env
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+
+# ------------------------------
+# 💻 OS / IDE Files
+# ------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
