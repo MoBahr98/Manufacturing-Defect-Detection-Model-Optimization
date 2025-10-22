@@ -75,7 +75,7 @@ print(pred[:10])
 - **LightGBM** achieved the highest ROC-AUC, confirming its ranking reliability.  
 - **Stacking ensemble** boosted F1-score by balancing recall and precision.  
 - **Threshold tuning** improved detection sensitivity (recall ↑ without overfitting).  
-- **Feature importance analysis** revealed *quality* and *process-time* variables as the most influential.
+- **Feature importance analysis** Feature importance analysis revealed that product quality indicators (defect_rate, quality_score) and operational efficiency factors (production_volume, energy_efficiency, maintenance_hours) were the most influential in predicting manufacturing defects.
 
 ---
 
