@@ -48,7 +48,7 @@ cd manufacturing-defect-detection
 pip install -r requirements.txt
 
 jupyter lab notebooks/01_data_exploration.ipynb
-    - This notebook runs the entire pipeline from model comparison through final evaluation.
+# This notebook runs the entire pipeline from model comparison through final evaluation.
 
 ```
 
