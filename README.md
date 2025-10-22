@@ -73,7 +73,7 @@ print(pred[:10])
 ## Key Insights
 
 - **LightGBM** achieved the highest ROC-AUC, confirming its ranking reliability.  
-- **Stacking ensemble** boosted F1-score by balancing recall and precision.  
+- **Stacking ensemble** Stacking the top-performing models (LightGBM, HistGradientBoosting, GradientBoosting) marginally improved F1-score by achieving a better balance between recall and precision, confirming ensemble robustness.
 - **Threshold tuning** improved detection sensitivity (recall ↑ without overfitting).  
 - **Feature importance analysis** Feature importance analysis revealed that product quality indicators (defect_rate, quality_score) and operational efficiency factors (production_volume, energy_efficiency, maintenance_hours) were the most influential in predicting manufacturing defects.
 
