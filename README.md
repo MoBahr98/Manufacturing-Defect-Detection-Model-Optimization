@@ -1,4 +1,4 @@
-# 🏭 Manufacturing Defect Detection – Model Optimization Project
+# 🏭 Manufacturing Defect Detection – Model Optimization
 
 This project explores **machine learning model selection and optimization** for predicting manufacturing defects.  
 
